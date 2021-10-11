@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+#name {
+  font-size: 1rem;
+}
+.hell {
+  box-shadow: rgba(12, 0, 0, 0.2) 1rem 2rem 1rem;
+  width: 20vw;
+  height: 80vh;
+  border-radius: 1rem;
+  background-color: rgb(245, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+.llll {
+  box-shadow: rgba(12, 0, 0, 0.2) 1rem 2rem 1rem;
+  width: 20vw;
+  height: 30vh;
+  border-radius: 1rem;
+  background-color: rgb(245, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button {
+  // background-color: red;
+  // background-color: rgb(245, 230, 230);
+  border: 2px #80455a solid;
+  background-color: #f089b1;
+
+  width: 80%;
+}
+// button:focus {
+//   outline: none;
+// }
+
+.he {
+  height: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  // background-color: blue;
+}
+.card {
+  // background-color: blue;
+  padding: 1rem;
+  display: flex;
+  #name {
+    padding-left: 1rem;
+  }
+  #age {
+    padding-left: 1rem;
+  }
+}
+.App {
+  background-color: #f089b1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
